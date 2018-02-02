@@ -8,12 +8,18 @@ module.exports = (app) => {
         scope: ['profile', 'email'] // Tells google what information we want from users accout. we want their profile and email.
     }));
 
-    app.get('/auth/google/callback', passport.authenticate('google'));
+    app.get(
+        '/auth/google/callback', 
+        passport.authenticate('google'),
+        (req, res) => {
+            res.redirect('/surveys');
+        }
+    );
 
     // logout the user
     app.get('/api/logout', (req, res ) => {
         req.logout(); // logout the user
-        res.send(req.user); // let user know they are logged out.
+        res.redirect('/');
     });
 
     app.get('/api/current_user', (req, res) => {
