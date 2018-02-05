@@ -4,15 +4,18 @@ const Landing = () => {
     return (
         <div>
             <div style={{ textAlign: 'center'}}>
-                <img src="https://s3.amazonaws.com/dcmedia3412/images/logo_dark_purple_500.png" alt="Krypto-dash logo" />
+                <img src="https://s3.amazonaws.com/dcmedia3412/images/logo_dark_purple_350.png" alt="Krypto-dash logo" style={{marginTop: '75px', marginBottom: '50px'}}/>
                 <h1 style={{marginTop: '0px'}}>
                     Krypto-Dash!
                 </h1>
-                <h5 style={{marginBottom: '75px'}} >See all of Your Crypto $$$ in One Dashboard!</h5>
+                <h5 style={{marginBottom: '35px'}} >See all of Your Crypto $$$ in One Dashboard!</h5>
+                <div className="row center" style={{marginBottom: '60px'}}>
+                    <a href="" id="download-button" className="btn-large waves-effect waves-light deep-purple">Get Started</a>
+                </div>
             </div>
 
         
-            <div className="row">
+            <div className="row" style={{marginBottom: '50px'}}>
                 <div className="col s12 m4">
                     <div className="icon-block">
                     <h2 className="center orange-text"><i className=" medium material-icons">flash_on</i></h2>
