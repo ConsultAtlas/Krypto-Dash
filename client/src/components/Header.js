@@ -22,12 +22,12 @@ class Header extends Component {
         console.log(this.props);
         return (
             <nav>
-                <div className="nav-wrapper">
+                <div className="nav-wrapper deep-purple">
                     <Link 
                         to={this.props.auth ? '/surveys' : '/'}
                         className="left brand-logo"
                         >
-                        Krypto-Dash
+                        <img src="https://s3.amazonaws.com/dcmedia3412/images/logo-white_75.png" alt="Krypto-dash logo"/>
                     </Link>
                     <ul className="right">
                         {this.renderContent()}
