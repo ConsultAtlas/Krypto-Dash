@@ -11,7 +11,7 @@ const Landing = () => {
                 </h1>
                 <h5 style={{marginBottom: '35px'}} >See all of Your Crypto $$$ in One Dashboard!</h5>
                 <div className="row center" style={{marginBottom: '60px'}}>
-                    <a href="/auth/google" id="download-button" className="btn-large waves-effect waves-light deep-purple">Get Started</a>
+                    <a href="/auth/google" id="download-button" className="btn-large waves-effect waves-light deep-purple pulse">Get Started</a>
                 </div>
             </div>
 

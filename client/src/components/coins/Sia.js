@@ -20,23 +20,23 @@ class Sia extends Component {
     render () {
         
         return (
-            <div className="row">
-                <div className="col s12 m7">
-                    <div className="card">
-                        <div className="card-image">
-                            <img src="https://s3.amazonaws.com/dcmedia3412/images/siacoin.jpg" />
-                            <span className="card-title">Card Title</span>
+            <div class="col s12 m7">
+                    <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="https://s3.amazonaws.com/dcmedia3412/images/siacoin_150.jpg" />
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                        <h5 class="header">Sia Coin (SC)</h5>
+                        <p style={{fontWeight: "600"}}>$0.021855 USD (17.66%)</p>
+                        <p>0.00000288 BTC (9.68%)</p>
                         </div>
-                        <div className="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <div class="card-action">
+                        <a href="#">This is a link</a>
                         </div>
-                        <div className="card-action">
-                            <a href="#">This is a link</a>
                     </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }
