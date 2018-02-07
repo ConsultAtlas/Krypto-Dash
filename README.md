@@ -44,8 +44,8 @@ The project utilizes passport.js to manage OAUTH 2.0 login in with google and di
 
 - User Input on Currencies to Add - I would like to add a survey to the app where users can submit requests for new currencies to be added to the app.
 - Add more Cryptocurrencies
-- Persist User Choices of Currencies in MongoDB - I would like to save the state of which currencies as user has filtered to see in their user model instance in MongoDB so that when they logout and login back into the platform, they see the currencies that they have previously chosen displayed.
+- Persist User Choices of Currencies in MongoDB - I would like to save the state of which currencies a user has filtered to see in their user model instance in MongoDB so that when they logout and login back into the platform, they see displayed the currencies that they have previously chosen.
 - Add Visualizations to the Pricing Data - I would like to add graphical information / charts to the currency components.
-- Email notifications - I would like to implement email communication from the app, using a third party such as SendGrid or MailChimp to send signup confirmation emails, new feature announcements, etc.
+- Email notifications - I would like to implement email communication from the app, using a third party such as SendGrid or MailChimp, to send signup confirmation emails, new feature announcements, etc.
 - Add Additional Authentication Strategies in Passport.JS - Add Facebook, LinkedIn, and Twitter authentication options.
 
