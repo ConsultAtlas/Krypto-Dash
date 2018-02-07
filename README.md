@@ -32,7 +32,7 @@ Hosting
 
 ## Context for the Projects
 
-This project was developed as a the capstone project during the DigitalCraft's Full Stack Flex Software Development Bootcamp, which graduated February 2018. The part-time program, based in Atlanta, GA, teaches students how to code fullstack projects using javascript, more specifically the MEARN stack. All the code was written while learning the underlying technologies, and is ongoing.
+This project was developed as a the capstone project during the DigitalCraft's Full Stack Flex Software Development Bootcamp, which graduated February 2018. The part-time program, based in Atlanta, GA, teaches students how to code fullstack projects using javascript, more specifically the MERN 2.0 stack. All the code was written while learning the underlying technologies, and is ongoing.
 
 ## What Did I Set Out To Build?
 
