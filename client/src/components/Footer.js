@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="col l3 s12">
                     <h5 className="white-text">GitHub</h5>
                     <ul>
-                        <li><a className="white-text" href="#!">krypto-dash.github.com</a></li>
+                        <li><a className="white-text" href="https://github.com/ConsultAtlas/Krypto-Dash">Krypto-Dash Github</a></li>
                         
                     </ul>
                 </div>
