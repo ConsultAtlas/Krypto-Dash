@@ -36,7 +36,7 @@ class Dashboard extends Component {
                 <div className="divider"></div>
                 <div>
                     <h3 className="center" style={{ marginTop: "50px", marginBottom: "75px"}}>Welcome to Krypto-Dash!</h3>
-                    <h6 className="center">Click the buttons below to see current pricing and sales volumes for your favorite cryptocurencies.</h6>
+                    <h6 className="center">Click the buttons below to see current pricing and 24H percent change for your favorite cryptocurencies.</h6>
                 </div>
                 <div className="center" style={{ marginTop: "50px", marginBottom: "75px"}}>
                     <div className="row center-align">
