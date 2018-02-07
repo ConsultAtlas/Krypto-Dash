@@ -32,10 +32,11 @@ class Dashboard extends Component {
     
     render() {
         return(
-            <div>
+            <div style={{ marginBottom: "75px"}}>
                 <div className="divider"></div>
                 <div>
-                    <h3 className="center" style={{ marginTop: "50px", marginBottom: "75px"}}>Welcome Captain Picard!</h3>
+                    <h3 className="center" style={{ marginTop: "50px", marginBottom: "75px"}}>Welcome to Krypto-Dash!</h3>
+                    <h6 className="center">Click the buttons below to see current pricing and sales volumes for your favorite cryptocurencys.</h6>
                 </div>
                 <div className="center" style={{ marginTop: "50px", marginBottom: "75px"}}>
                     <div className="row center-align">
