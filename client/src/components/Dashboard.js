@@ -7,10 +7,22 @@ import Sia from './coins/Sia';
 const Dashboard = () => {
     return(
         <div>
-            <div className="wrapper">
-                <a className="waves-effect waves-light btn orange left">Bitcoin</a>
-                <a className="waves-effect waves-light btn orange center-align">Ethereum</a>
-                <a className="waves-effect waves-light btn orange right">Sia Coin</a>
+            <div className="divider"></div>
+            <div>
+                <h3 className="center" style={{ marginTop: "50px", marginBottom: "100px"}}>Welcome Captain Picard!</h3>
+            </div>
+            <div className="center" style={{ marginTop: "50px", marginBottom: "50px"}}>
+                <div className="row center-align">
+                    <div className="col s4 center">
+                        <a className="waves-effect waves-light btn orange large">Bitcoin</a>
+                    </div>
+                    <div className="col s4 center">
+                        <a className="waves-effect waves-light btn orange large">Ethereum</a>
+                    </div>
+                    <div className="col s4 center">
+                        <a className="waves-effect waves-light btn orange large">Sia Coin</a>
+                    </div>
+                </div>
             </div>
             <Bitcoin />
             <Ethereum />
