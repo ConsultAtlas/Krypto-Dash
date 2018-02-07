@@ -43,7 +43,7 @@ class Dashboard extends Component {
                             <a onClick={this.toggleBitcoinHidden.bind(this)} className="waves-effect waves-light btn orange large">Bitcoin</a>
                         </div>
                         <div className="col s4 center">
-                            <a onClick={this.toggleEthereumHidden.bind(this)} className="waves-effect waves-light btn orange large">Ethereum</a>
+                            <a onClick={this.toggleEthereumHidden.bind(this)} className="waves-effect waves-light btn orange large">Ether</a>
                         </div>
                         <div className="col s4 center">
                             <a onClick={this.toggleSiaHidden.bind(this)} className="waves-effect waves-light btn orange large">Sia Coin</a>
