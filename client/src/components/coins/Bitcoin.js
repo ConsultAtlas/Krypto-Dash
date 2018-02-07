@@ -17,7 +17,6 @@ class Bitcoin extends Component {
             // Updates the state with the response
             this.setState({ bitcoin_price: response.data[0].price_usd })
             this.setState({ bitcoin_percent_change_24h: response.data[0].percent_change_24h })
-            console.log(this.state);
         });
       }
 

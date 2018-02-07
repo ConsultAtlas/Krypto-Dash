@@ -18,7 +18,6 @@ class Ethereum extends Component {
             this.setState({ ethereum_price: response.data[0].price_usd })
             this.setState({ ethereum_percent_change_24h: response.data[0].percent_change_24h })
             this.setState({ price_btc: response.data[0].price_btc })
-            console.log(this.state);
         });
       }
 
