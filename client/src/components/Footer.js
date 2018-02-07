@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col l6 s12">
                     <h5 className="white-text">Company Bio</h5>
-                    <p className="grey-text text-lighten-4">Krypto-Dash is developed by <a href="www.zacharyaten.com">Zachary Aten</a>. It is his capstone project from his <a href="https://www.digitalcrafts.com/full-stack-flex.html">Full Stack Flex Software Development Bootcamp</a> run by <a href="https://www.digitalcrafts.com/">DigitalCrafts</a>.</p>
+                    <p className="grey-text text-lighten-4">Krypto-Dash is developed by <a href="http://www.zacharyaten.com">Zachary Aten</a>. It is his capstone project from his <a href="https://www.digitalcrafts.com/full-stack-flex.html">Full Stack Flex Software Development Bootcamp</a> run by <a href="https://www.digitalcrafts.com/">DigitalCrafts</a>.</p>
                 </div>
                 <div className="col l3 s12">
                     <h5 className="white-text"></h5>
